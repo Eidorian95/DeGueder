@@ -35,16 +35,6 @@
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="8dp"
             app:layout_constraintTop_toTopOf="parent"/>
 
-    <com.haipq.android.flagkit.FlagImageView
-            android:id="@+id/flagViewAR"
-            android:layout_width="70dp"
-            android:layout_height="wrap_content"
-            app:countryCode="AR"
-            tools:src="@drawable/flag_ar" android:layout_marginTop="32dp"
-            app:layout_constraintTop_toBottomOf="@+id/textView"
-            app:layout_constraintEnd_toStartOf="@+id/btClimaBsAs" android:layout_marginStart="16dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.25"
-            app:layout_constraintHorizontal_chainStyle="spread_inside"/>
     <Button
 
             android:text="@string/bt_clima_bsas"
@@ -53,21 +43,10 @@
             android:textColor="@color/titulo_gris"
             style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
             android:id="@+id/btClimaBsAs"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="24dp"
             app:layout_constraintTop_toBottomOf="@+id/textView"
-            android:layout_marginEnd="64dp"/>
-
-    <com.haipq.android.flagkit.FlagImageView
-            android:id="@+id/flagViewUR"
-            android:layout_width="70dp"
-            android:layout_height="wrap_content"
-            app:countryCode="UY"
-            tools:src="@drawable/flag_uy"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginTop="24dp"
-            app:layout_constraintTop_toBottomOf="@+id/flagViewAR"
-            app:layout_constraintEnd_toStartOf="@+id/btClimaUru" app:layout_constraintHorizontal_bias="0.25"
-            android:layout_marginStart="16dp"/>
+            android:layout_marginEnd="112dp" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.99"/>
 
     <Button
 
@@ -79,19 +58,9 @@
             android:id="@+id/btClimaUru"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btClimaBsAs"
-            android:layout_marginEnd="112dp" android:layout_marginTop="24dp"
-    />
-
-    <com.haipq.android.flagkit.FlagImageView
-            android:id="@+id/flagViewBR"
-            android:layout_width="70dp"
-            android:layout_height="wrap_content"
-            app:countryCode="BR"
-            tools:src="@drawable/flag_br"
-            app:layout_constraintEnd_toStartOf="@+id/btClimaBr"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="16dp" android:layout_marginTop="24dp"
-            app:layout_constraintTop_toBottomOf="@+id/flagViewUR" app:layout_constraintHorizontal_bias="0.25"/>
+            android:layout_marginEnd="112dp" android:layout_marginTop="16dp"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.832"/>
 
 
     <Button
@@ -102,20 +71,10 @@
             android:textColor="@color/titulo_gris"
             style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
             android:id="@+id/btClimaBr"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="28dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="16dp"
             app:layout_constraintTop_toBottomOf="@+id/btClimaUru"
-            android:layout_marginEnd="80dp" tools:ignore="DuplicateIds"/>
-
-    <com.haipq.android.flagkit.FlagImageView
-            android:id="@+id/flagViewMx"
-            android:layout_width="70dp"
-            android:layout_height="wrap_content"
-            app:countryCode="MX"
-            tools:src="@drawable/flag_mx"
-            android:layout_marginStart="16dp"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/flagViewBR"
-            app:layout_constraintEnd_toStartOf="@+id/btClimaMx" app:layout_constraintHorizontal_bias="0.25"/>
+            android:layout_marginEnd="80dp" tools:ignore="DuplicateIds" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.727"/>
 
 
     <Button
@@ -128,19 +87,10 @@
             android:id="@+id/btClimaMx"
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="104dp"
-            android:layout_marginTop="20dp" app:layout_constraintTop_toBottomOf="@+id/btClimaBr"/>
+            android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/btClimaBr"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.803"/>
 
-
-    <com.haipq.android.flagkit.FlagImageView
-            android:id="@+id/flagViewUs"
-            android:layout_width="70dp"
-            android:layout_height="wrap_content"
-            app:countryCode="US"
-            tools:src="@drawable/flag_us"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/btClimaUs"
-            android:layout_marginTop="20dp" app:layout_constraintTop_toBottomOf="@+id/flagViewMx"
-            app:layout_constraintHorizontal_bias="0.25" android:layout_marginStart="16dp"/>
 
     <Button
 
@@ -152,6 +102,8 @@
             android:id="@+id/btClimaUs"
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="72dp"
-            android:layout_marginTop="20dp" app:layout_constraintTop_toBottomOf="@+id/btClimaMx"/>
+            android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/btClimaMx"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.7"/>
 
 </android.support.constraint.ConstraintLayout>
