@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fondo">
+
+    <TextView
+            android:text="@string/texto_clima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="102sp"
+            android:textColor="@color/titulo_blanco"
+            android:id="@+id/tvGrados" android:layout_marginTop="132dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.498"/>
+    <TextView
+            android:text="@string/textp_ciudad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:textColor="@color/titulo_gris"
+            android:id="@+id/tvCiudad"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintHorizontal_bias="0.496"
+            android:layout_marginTop="32dp" app:layout_constraintTop_toBottomOf="@+id/tvGrados"/>
+    <TextView
+            android:text="@string/texto_estatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:id="@+id/tvEstatus"
+            android:textColor="@color/titulo_gris"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintHorizontal_bias="0.495"
+            android:layout_marginTop="32dp" app:layout_constraintTop_toBottomOf="@+id/tvCiudad"/>
+</android.support.constraint.ConstraintLayout>

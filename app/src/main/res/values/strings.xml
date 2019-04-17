@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">De Güeder</string>
+    <string name="texto_clima">0º</string>
+    <string name="textp_ciudad">Sin información</string>
+    <string name="texto_estatus">Sin información</string>
+    <string name="texto_bienvenida">Bienvenido a De Güeder, te permitirá ver el clima en una ciudad determinada</string>
+    <string name="bt_clima_bsas">Cdad. de Buenos Aires</string>
+    <string name="gueder_titulo">DE GÜEDER</string>
+    <string name="bt_clima_uru">Cdad. de Rocha</string>
+    <string name="bt_clima_br">Cdad. de São Paulo</string>
+    <string name="bt_clima_mx">Cdad. de Mexico</string>
+    <string name="bt_clima_us">Cdad. de Nueva York</string>
+</resources>
